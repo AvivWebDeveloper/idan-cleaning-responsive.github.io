@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fimanager:before {
+      display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    display: block;
+}
+
+.flaticon-001-alcohol:before { content: "\f100"; }
+.flaticon-002-sanitizer:before { content: "\f101"; }
+.flaticon-003-bacteria:before { content: "\f102"; }
+.flaticon-004-bacteria:before { content: "\f103"; }
+.flaticon-005-basin:before { content: "\f104"; }
+.flaticon-006-bathtub:before { content: "\f105"; }
+.flaticon-007-hands:before { content: "\f106"; }
+.flaticon-008-t-shirt:before { content: "\f107"; }
+.flaticon-009-cleaning:before { content: "\f108"; }
+.flaticon-010-cleaning:before { content: "\f109"; }
+.flaticon-011-cloth:before { content: "\f10a"; }
+.flaticon-012-cotton-swab:before { content: "\f10b"; }
+.flaticon-013-dental-floss:before { content: "\f10c"; }
+.flaticon-014-dishwashing:before { content: "\f10d"; }
+.flaticon-015-spray:before { content: "\f10e"; }
+.flaticon-016-face-mask:before { content: "\f10f"; }
+.flaticon-017-window:before { content: "\f110"; }
+.flaticon-018-hand-sanitizer:before { content: "\f111"; }
+.flaticon-019-hand-washing:before { content: "\f112"; }
+.flaticon-020-protection:before { content: "\f113"; }
+.flaticon-021-microscope:before { content: "\f114"; }
+.flaticon-022-bacteria:before { content: "\f115"; }
+.flaticon-023-paper-towel:before { content: "\f116"; }
+.flaticon-024-razor:before { content: "\f117"; }
+.flaticon-025-sanitary:before { content: "\f118"; }
+.flaticon-026-scissors:before { content: "\f119"; }
+.flaticon-027-shampoo:before { content: "\f11a"; }
+.flaticon-028-shower:before { content: "\f11b"; }
+.flaticon-029-soap:before { content: "\f11c"; }
+.flaticon-030-sponge:before { content: "\f11d"; }
+.flaticon-031-cleaning:before { content: "\f11e"; }
+.flaticon-032-tap:before { content: "\f11f"; }
+.flaticon-033-tissue-paper:before { content: "\f120"; }
+.flaticon-034-toilet-paper:before { content: "\f121"; }
+.flaticon-035-toilet:before { content: "\f122"; }

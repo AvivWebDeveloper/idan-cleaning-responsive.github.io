@@ -1,0 +1,144 @@
+@media only screen and (max-width:  800px) and (min-width: 40px){
+  nav { 
+      display: none;
+  }
+  nav ul {
+    right: 0;
+    display: block;
+    margin-top: 50px;
+  }
+  nav li {
+    width: 200px;
+  }
+  .nav-button{
+    display: none;
+  }
+  .logo {
+    width: 200px;
+    right: 0;
+  }
+
+  .burger {
+      display: block;
+  }
+  .burger button {
+    position: relative;
+    right: 120px;
+
+  }
+  /* small components = i want dosen`t tuch html , only css */
+
+.background {
+  background-position: 50%;
+}
+
+.main-header {
+  right: 0;
+}
+
+.main-button {
+  right: 10px;
+}
+
+.header-p {
+  right: 0;
+  width: 400px;
+}
+
+.about-header {
+  right: -80px;
+  width: 100%;
+}
+.about-p {
+  right: 10px;
+  width: 350px;
+  font-size: 20px;
+}
+
+.about-photo {
+   top: 0%;
+   left: 80px;
+   width: 80%;
+}
+
+.read-more {
+  right: 10px;
+}
+.let-icons-container {
+  max-width: 100px;
+  margin: 0;
+  margin-left: 530px;
+}
+.let-us-work {
+  height: 1000px;
+}
+.watch-our-services {
+  right: 0;
+}
+
+.watch-our-btn {
+    right: 0%;
+    position: relative;
+    top: 0;
+}
+.button-container {
+  margin-right: 155px;
+}
+.clean-house-section {
+  margin-top: 285px;
+}
+.clean-content {
+  right: 5px;
+}
+.clean-content-items {
+  width: 400px !important;
+}
+.clean-content-items:nth-child(2) {
+  width: 400px !important;
+}
+.our-services {
+  right: 65px;
+}
+
+.order-our-services {
+  height: 280px;
+}
+
+.order-our-services h3 {
+  right: 10px;
+  width: 400px;
+}
+.order-our-btn {
+  right: 10px;
+  top: 35px;
+}
+.contact h2 , .contact p {
+  right: 50px;
+  width: 300px;
+}
+.contact-form {
+  right: 0;
+  top: 400px;
+  width: 100px;
+}
+input , textarea  { 
+  width: 400px;
+}
+
+.space { 
+  height: 100px;
+}
+footer {
+ padding-bottom: 50px;
+ margin-top: 220px; 
+}
+.footer-p {
+  left: 0;
+}
+footer ul li {
+  right: 0;
+  margin-top: 50px;
+}
+}
+
+/* tips: see evry component in one if hard comment all and the component is no comment this tip can help */

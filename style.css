@@ -1,0 +1,882 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: 'Assistant';
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+   display: flex;
+}
+
+.burger {
+    margin-top: 55px;
+    display: none;
+}
+
+.burger button {
+    font-size: 30px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+}
+
+.logo {
+    position: relative;
+    right: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    color: #ffffff;
+    padding: 20px;
+    position: relative;
+    right: 700px;
+}
+
+nav li {
+    padding: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #ffffff;
+}
+
+nav li:hover {
+    color: #228BCC;
+    transition: 0.5s;
+}
+
+.nav-button {
+    color: white;
+    background-color: #2970e1;
+    border: none;
+    height: 52px;
+    width: 173px;
+    font-size: 14.5px;
+    letter-spacing: 1.5px;
+    font-weight: 0;
+    border-radius: 5px;
+    position: relative;
+    top: 45px;
+    right: 700px;
+    font-weight: 100;
+    font-family: 'open sans hebrew';
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-button:hover {
+    background-color: #367ee2;
+    transition: 0.5s;
+}
+
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.459)), url(/photos/unrecognizable-cleaner-walking-into-hotel-room-with-tools-detergents.jpg);
+    height: 830px;
+    background-size: cover;
+    width: 100%;
+    background-position: 100% 20%;
+    background-color: #000000;
+}
+
+.main-header {
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 900;
+    max-width: 700px;
+    position: relative;
+    top: 100px;
+    right: 200px;
+    line-height: 92px;
+}
+
+.header-p {
+    font-size: 22px;
+    color: #ffffff;
+    width: 800px;
+    position: relative;
+    top: 60px;
+    right: 200px;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.main-button {
+    color: white;
+    background-color: #2970e1;
+    border: none;
+    font-size: 24px;
+    font-weight: 0;
+    letter-spacing: 1.1px;
+    border-radius: 5px;
+    position: relative;
+    right: 15px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 151px;
+    height: 60px;
+    top: 100px;
+    right: 200px;
+    font-family: 'Assistant';
+    transition: 0.5s;
+}
+
+.main-button:hover {
+    background-color: #367ee2;
+    transition: 0.5s;
+}
+.about-header {
+    font-weight: 700;
+    font-size: 38px;
+    position: relative;
+    top: 18px;
+    width: 51%;
+    text-align: center;
+    color: #228BCC;
+}
+
+.about-p {
+    font-size: 25px;
+    width: 530px;
+    position: relative;
+    right: 275px;
+    line-height: 41px;
+    font-weight: 200;
+    padding-top: 10px;
+}
+
+.about-photo {
+    float: left;
+    position: relative;
+    top: -550px;
+    left: 250px;
+}
+
+.read-more {
+    color: #ffffff;
+    background-color: #2970e1;
+    border: none;
+    font-size: 21px;
+    font-weight: 0;
+    letter-spacing: 1.3px;
+    border-radius: 5px;
+    position: relative;
+    right: 25px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 170px;
+    height: 58px;
+    top: 50px;
+    right: 275px;
+    font-family: 'Assistant';
+    transition: 0.5s;
+}
+
+.read-more:hover {
+    background-color: #367ee2;
+    transition: 0.5s;
+}
+
+
+.read-more-text {
+    padding: 5px;
+    position: relative;
+    left: 5px;
+}
+
+.let-us-work {
+    background-image: linear-gradient(180deg, #F2F7FB 0%, #FFFFFF 100%);
+    background-color: transparent;
+    width: 100%;
+    height: 720px;
+    position: relative;
+    margin: auto;
+    top: 110px;
+
+}
+
+.let-us-work-header {
+    color: #228BCC;
+    font-size: 38px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+}
+
+.let-icons-container{ 
+     display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 830px;
+    top: 190px;
+    right: 250px;
+}
+
+.let-h5 {
+    font-size: 25px;
+    font-weight: 350;
+    display: block;
+    position: relative;
+    bottom: 25px;
+    
+}
+
+.let-box img {
+    transition: 1s;
+}
+
+.let-box img:hover {
+   transform: scale(1.2);
+   transition: 0.9s;
+}
+
+.let-p {
+    font-size: 21px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    top: 160px;
+    font-weight: 100;
+    max-width: 580px;
+    line-height: 35px;
+}
+.button-container {
+    width: 10%;
+    margin: 0  auto;
+}
+.let-button {
+    color: white;
+    background-color: #2970e1;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    border-radius: 5px;
+    position: relative;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 200px;
+    height: 55px;
+    top: 220px;
+    font-family: 'Assistant';
+    transition: 0.5s; 
+    display: block;
+}
+
+.clean-house-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.671)) , url('photos/cleaning-services-img-1-1024x453.jpg');
+    height: 480px;
+    background-size: cover;
+/*     background-attachment: fixed; */
+    width: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.clean-content {
+    color: #ffffff;
+    position: relative;
+    top: 150px;
+    right: 345px;
+}
+.clean-content h2 {
+    width: 500px;
+    font-size: 38px;
+}
+.clean-content p {
+    width: 450px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.clean-button {
+    color: white;
+    background-color: #2970e1;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    border-radius: 5px;
+    position: relative;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 220px;
+    height: 55px;
+    font-family: 'Assistant';
+    transition: 0.5s; 
+    display: block;
+    bottom: 90px;
+    right: 640px;
+}
+
+.clean-button:hover {
+    background-color: #367ee2;
+    transition: 0.5s;
+}
+
+.services-h2 {
+    font-size: 45px;
+    color: #228bcc;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.services p {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 100;
+    position: relative;
+    top: 20px;
+}
+
+.our-services {
+    display: flex;
+    flex-wrap: wrap;
+    width: 73%;
+    justify-content: space-evenly;
+    position: relative;
+    top: 70px;
+    right: 230px;
+}
+.services-box {
+    text-align: center;
+}
+.our-services h3 {
+    font-size: 35px;
+    font-weight: 400;
+    position: relative;
+    top: -20px;
+}
+
+.our-services p {
+    width: 250px;
+    font-size: 18px;
+    position: relative;
+    top: -30px;
+    line-height: 30px;
+}
+
+.watch-our-services {
+    font-size: 39px;
+    color: #228bcc;
+    text-align: center;
+    width: 500px;
+    position: relative;
+    right: 200px;
+}
+
+.watch-our-btn {
+    color: white;
+    background-color: #2970e1;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    border-radius: 5px;
+    position: relative;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 200px;
+    height: 55px;
+    font-family: 'Assistant';
+    transition: 0.5s; 
+    position: relative;
+    top: 100px;
+    left: 305px;
+}
+
+.order-our-services {
+    background-color: #3D64F2F7;
+    height: 185px;
+    position: relative;
+    top: 200px;
+}
+
+.order-our-services h3 {
+    color: #ffffff;
+    font-size: 33px;
+    position: relative;
+    font-weight: 400;
+    width: 700px;
+    position: relative;
+    top: 50px;
+    right: 300px;
+}
+
+.order-our-btn {
+    color: #3D3FF2F7;
+    background-color: #ffffff;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    border-radius: 5px;
+    position: relative;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 140px;
+    height: 55px;
+    font-family: 'Assistant';
+    transition: 0.5s; 
+    position: relative;
+    right: 1150px;
+    top: -50px;
+}
+
+.order-our-btn:hover {
+    margin-top: -10px;
+    transition: 0.3s ;
+}
+
+.contact {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #F2F7FB 0%, #FFFFFF 100%);
+    height: 750px;
+    margin-top: 50px;
+}
+
+.contact h2 {
+    font-size: 45px;
+    color: #228BCC;
+    font-weight: 700;
+    position: relative;
+    top: 380px;
+    width: 255px; 
+    right: 200px;
+}
+
+.contact p {
+    top: 370px;
+    text-align: right;
+    width: 550px;
+    right: 205px;
+    line-height: 38px;
+}
+
+.contact-form {
+    display: block;
+    width: 100px;
+    position: relative;
+    right: 800px;
+    font-family: 'Assistant';
+    font-size: 22px;
+    top: 100px;
+}
+
+input {
+    border: 1px solid #eaeaea;
+    background-color: #fafafa;
+    width: 500px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Assistant';
+    margin-bottom: 15px;
+}
+
+textarea {
+    border: 1px solid #eaeaea;
+    background-color: #fafafa;
+    font-family: 'assistant';
+    width: 500px;
+    font-size: 16px;
+    height: 150px;
+
+}
+
+.submit-button {
+    color: white;
+    background-color: #2970e1;
+    border: none;
+    font-size: 20px;
+    font-weight: 0;
+    letter-spacing: 1.1px;
+    border-radius: 5px;
+    position: relative;
+    right: 15px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 120px;
+    height: 50px;
+    font-family: 'Assistant';
+    transition: 0.5s;
+    position: relative;
+    top: 20px;
+    right: -2px;
+}
+
+
+footer {
+    background-color: #172d68;
+    width: 100%;
+    height: 110px;
+}
+
+.footer-p {
+    font-size: 8px;
+    color: rgb(154 164 189);
+    padding: 23px;
+    position: relative;
+    left: 280px;
+}
+
+footer ul {
+    display: flex;
+    height: 0%;
+}
+
+footer ul li {
+    list-style-type: none;
+    color: rgb(154 164 189);
+    font-size: 18px;
+    padding: 10px;
+    position: relative;
+    top: -60px;
+    right: 1000px;
+}
+
+/* About Page */
+
+.about-background {
+    background: linear-gradient(rgba(52, 94, 230, 0.459), rgba(75, 111, 228, 0.418)), url(/photos/cleaning-tools.jpg) ;
+    height: 550px;
+    background-size: cover;
+    background-position: 85% 85%;
+}
+
+.about-background h1 {
+    font-size: 68px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: 50px;
+}
+
+.about-section h2 {
+    color: #228BCC;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-section p {
+    font-size: 22.5px;
+    text-align: center;
+    width: 1100px;
+    line-height: 36px;
+    color: #2a2f4f;
+    font-weight: 100;
+    margin: 0 auto;
+}
+
+.why-about-section {
+    background-color: #F2F7FB;
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.why-about-section h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #228BCC;
+    position: relative;
+    top: 70px;
+}
+
+.why-us-section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+}
+
+.why-us-box img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.why-us-box h6 {
+    font-size: 24px;
+    font-weight: 400;
+    width: 230px;
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+
+.call-us-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.596)), url(photos/cleaning-image-2-1024x427.jpg);
+    height: 370px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    top: -30px;
+}
+
+.call-us-section h2 {
+    font-size: 39px;
+    color: #ffffff;
+    position: relative;
+    top: 155px;
+    right: 230px;
+    font-weight: 700;
+    width: 1000px;
+}
+
+.call-us-section p {
+    font-size: 20.5px;
+    color: #ffffff;
+    position: relative;
+    top: 150px;
+    right: 230px;
+    font-weight: 100;
+    width: 1000px;
+}
+
+.call-us-btn {
+    color: white;
+    background-color: #2970e1;
+    border: none;
+    height: 52px;
+    width: 175px;
+    font-size: 14.5px;
+    letter-spacing: 1.5px;
+    font-weight: 0;
+    border-radius: 5px;
+    position: relative;
+    right: 1180px;
+    top: 50px;
+    font-weight: 100;
+    font-family: 'open sans hebrew';
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.call-us-btn:hover {
+    background-color: #367ee2;
+    transition: 0.5s;
+}
+
+.lets-clean-section {
+    height: 450px;
+    width: 500px;
+}
+
+.lets-clean-section h2 {
+    font-size: 2.375rem;
+    width: 500px;
+    position: relative;
+    top: 120px;
+    right: 250px;
+    min-width: 200px;
+}
+
+.lets-clean-section ul {
+    list-style-type: none;
+    position: relative;
+    top: 120px;
+    right: 195px;
+    width: 220px;
+}
+
+.lets-clean-section li {
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: 100;
+    padding: 10px;
+    width: 220px;
+}
+
+.lets-clean-section span {
+    color: #228BCC;
+    padding: 10px;
+}
+
+.lets-clean-section img {
+    position: relative;
+    bottom: 270px;
+    right: 750px;
+}
+
+.about-footer {
+    background-color: #172d68;
+    width: 100%;
+    height: 110px;
+    margin-top: 230px;
+}
+
+.footer-p-about {
+    font-size: 20px;
+    color: rgb(154 164 189);
+    padding: 23px;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    width: 700px;
+
+}
+
+footer ul li {
+    list-style-type: none;
+    color: rgb(154 164 189);
+    font-size: 18px;
+    padding: 10px;
+    position: relative;
+    top: -60px;
+    right: 1000px;
+}
+
+/* Services Page */
+
+.services-background {
+    background: linear-gradient(rgba(33, 74, 207, 0.651), rgba(32, 56, 136, 0.692)), url(photos/young-girl-is-holding-cleaning-product-gloves-rags-basin-white-wall.jpg);
+    height: 580px;
+    background-size: cover;
+    background-position-y: 15%;
+}
+
+.services-background h1 {
+    font-size: 68px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 75px;
+}
+
+.our-services-page {
+    background-color: #F2F7FB;
+    height: 900px;
+    position: relative;
+    bottom: 30px;
+}
+
+.our-services-page h2 {
+    text-align: center;
+    color: #00BCFF;
+    font-size: 2.375rem;
+    position: relative;
+    top: 100px;
+}
+
+.contact-div {
+    width: 100%;
+    background-color: #3D64F2F7;
+    height: 150px;
+    position: relative;
+    bottom: 70px;
+}
+
+.contact-div h3 {
+    font-size: 39px;
+    color: #ffffff;
+    font-weight: 400;
+    position: relative;
+    top: 47px;
+    right: 300px;
+    width: 700px;
+}
+
+.contact-div-btn {
+    color: #3D3FF2F7;
+    background-color: #ffffff;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    border-radius: 5px;
+    position: relative;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 140px;
+    height: 55px;
+    font-family: 'Assistant';
+    transition: 0.5s; 
+    position: relative;
+    right: 1150px;
+    top: -40px;
+}
+
+.footer-p-services {
+    font-size: 20px;
+    color: rgb(154 164 189);
+    padding: 23px;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    width: 700px;
+}
+
+/* Contact Page */
+
+.contact-background {
+    background: linear-gradient(rgba(3, 97, 221, 0.555), rgba(15, 71, 134, 0.692)), url(photos/mid-section-unrecognizable-housekeeper-wiping-leather-sofa-with-leather-polish-spray.jpg);
+    height: 535px;
+    background-size: 100%;
+    background-position: 50% 20%;
+}
+
+.contact-background h1 {
+    font-size: 68px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.contact-form-page {
+    display: block;
+    width: 100px;
+    position: relative;
+    right: 800px;
+    font-family: 'Assistant';
+    font-size: 22px;
+    bottom: 120px;
+    right: 820px;
+}
+
+.contact-h2 {
+    font-size: 45px;
+    color: #228BCC;
+    font-weight: 700;
+    position: relative;
+    top: 120px;
+    width: 255px; 
+    right: 280px;
+}
+
+.contact-p {
+    text-align: right;
+    width: 500px;
+    right: 280px;
+    line-height: 38px;
+    font-size: 22px;
+   position: relative;
+   top: 100px;
+}
+
+.contact-page {
+    height: 400px;
+}
